@@ -17,7 +17,7 @@ Lastly, I created a **Javascript/jQuery** version so I could have something to p
 compared to most of the rest.
 
 **_NOTE:_** None of the image files used for any of the games have been uploaded with the exception of the Javascript example.
-I did leave the _images_ folder as a place holder. Each game requires at least 8 images. For most of the games I used 48 or 49 
+I did leave the **_images_** folders as a place holder. Each game requires at least 8 images. For most of the games I used 48 or 49 
 images. The Javascript example only uses 8 images (a subset of the what I used for a couple of the other games).
 
 [JS Concentration](http://htmlpreview.github.com/?https://github.com/dgsmith77/Concentration-nation/blob/master/JSConcentration/Concentration.html)
