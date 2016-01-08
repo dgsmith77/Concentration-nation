@@ -26,4 +26,4 @@ The TCL and Python versions aren't using images at all. I ran the convertImages.
 
 For the VB6 version, I included all of the images on the form where they aren't seen.
 
-[JS Concentration](http://htmlpreview.github.com/?https://github.com/dgsmith77/Concentration-nation/blob/master/JSConcentration/Concentration.html)
+[JS Concentration](http://dantheman.net23.net/Concentration.html)
