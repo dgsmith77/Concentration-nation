@@ -1,0 +1,9 @@
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\ConcentrationForm\ConcentrationForm\bin\Release\ConcentrationForm.exe.config
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\ConcentrationForm\ConcentrationForm\bin\Release\ConcentrationForm.exe
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\ConcentrationForm\ConcentrationForm\bin\Release\ConcentrationForm.pdb
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\ConcentrationForm\ConcentrationForm\obj\Release\ConcentrationForm.Form1.resources
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\ConcentrationForm\ConcentrationForm\obj\Release\ConcentrationForm.Properties.Resources.resources
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\ConcentrationForm\ConcentrationForm\obj\Release\ConcentrationForm.csproj.GenerateResource.Cache
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\ConcentrationForm\ConcentrationForm\obj\Release\ConcentrationForm.exe
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\ConcentrationForm\ConcentrationForm\obj\Release\ConcentrationForm.pdb
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\ConcentrationForm\ConcentrationForm\obj\Release\ConcentrationForm.csprojResolveAssemblyReference.cache

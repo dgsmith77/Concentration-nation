@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>371ecf35-6eaf-4db8-9087-bcc2319255a1</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>FSharpConcentration</RootNamespace>
+    <AssemblyName>FSharpConcentration</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFSharpCoreVersion>4.3.1.0</TargetFSharpCoreVersion>
+    <Name>FSharpConcentration</Name>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <Tailcalls>false</Tailcalls>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>3</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DocumentationFile>bin\Debug\FSharpConcentration.XML</DocumentationFile>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <Tailcalls>true</Tailcalls>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <WarningLevel>3</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DocumentationFile>bin\Release\FSharpConcentration.XML</DocumentationFile>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
+  </PropertyGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '11.0'">
+      <PropertyGroup Condition="Exists('$(MSBuildExtensionsPath32)\..\Microsoft SDKs\F#\3.0\Framework\v4.0\Microsoft.FSharp.Targets')">
+        <FSharpTargetsPath>$(MSBuildExtensionsPath32)\..\Microsoft SDKs\F#\3.0\Framework\v4.0\Microsoft.FSharp.Targets</FSharpTargetsPath>
+      </PropertyGroup>
+    </When>
+    <Otherwise>
+      <PropertyGroup Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\FSharp\Microsoft.FSharp.Targets')">
+        <FSharpTargetsPath>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\FSharp\Microsoft.FSharp.Targets</FSharpTargetsPath>
+      </PropertyGroup>
+    </Otherwise>
+  </Choose>
+  <Import Project="$(FSharpTargetsPath)" />
+  <ItemGroup>
+    <Compile Include="Program.fs" />
+    <None Include="App.config" />
+    <None Include="images\Bat-icon.png" />
+    <None Include="images\Bear-icon.png" />
+    <None Include="images\Beaver-icon.png" />
+    <None Include="images\Bee-icon.png" />
+    <None Include="images\Bull-icon.png" />
+    <None Include="images\Cat-icon.png" />
+    <None Include="images\Chicken-icon.png" />
+    <None Include="images\Cow-icon.png" />
+    <None Include="images\Crab-icon.png" />
+    <None Include="images\Crocodile-icon.png" />
+    <None Include="images\Deer-icon.png" />
+    <None Include="images\Dog-icon.png" />
+    <None Include="images\Dolphin-icon.png" />
+    <None Include="images\Duck-icon.png" />
+    <None Include="images\Eagle-icon.png" />
+    <None Include="images\Elephant-icon.png" />
+    <None Include="images\face3.png" />
+    <None Include="images\Fish-icon.png" />
+    <None Include="images\Frog-icon.png" />
+    <None Include="images\Giraffe-icon.png" />
+    <None Include="images\Goat-icon.png" />
+    <None Include="images\Gorilla-icon.png" />
+    <None Include="images\Hippo-icon.png" />
+    <None Include="images\Horse-icon.png" />
+    <None Include="images\Kangaroo-icon.png" />
+    <None Include="images\Koala-icon.png" />
+    <None Include="images\Lion-icon.png" />
+    <None Include="images\Lizard-icon.png" />
+    <None Include="images\Lobster-icon.png" />
+    <None Include="images\Monkey-icon.png" />
+    <None Include="images\Mouse-icon.png" />
+    <None Include="images\Octopus-icon.png" />
+    <None Include="images\Owl-icon.png" />
+    <None Include="images\Penguin-icon.png" />
+    <None Include="images\Pig-icon.png" />
+    <None Include="images\Rabbit-icon.png" />
+    <None Include="images\Raccoon-icon.png" />
+    <None Include="images\Rat-icon.png" />
+    <None Include="images\Rhino-icon.png" />
+    <None Include="images\Seal-icon.png" />
+    <None Include="images\Shark-icon.png" />
+    <None Include="images\Sheep-icon.png" />
+    <None Include="images\Snail-icon.png" />
+    <None Include="images\Snake-icon.png" />
+    <None Include="images\Squirrel-icon.png" />
+    <None Include="images\Swan-icon.png" />
+    <None Include="images\Tiger-icon.png" />
+    <None Include="images\Tuna-icon.png" />
+    <None Include="images\Turtle-icon.png" />
+    <None Include="images\Whale-icon.png" />
+    <None Include="images\Wolf-icon.png" />
+    <None Include="images\zoo_light.png" />
+    <EmbeddedResource Include="Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="FSharp.Core, Version=$(TargetFSharpCoreVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

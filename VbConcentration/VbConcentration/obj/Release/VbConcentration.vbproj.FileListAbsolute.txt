@@ -1,0 +1,11 @@
+c:\users\daniel\documents\visual studio 2013\Projects\VbConcentration\VbConcentration\bin\Release\VbConcentration.exe.config
+c:\users\daniel\documents\visual studio 2013\Projects\VbConcentration\VbConcentration\bin\Release\VbConcentration.exe
+c:\users\daniel\documents\visual studio 2013\Projects\VbConcentration\VbConcentration\bin\Release\VbConcentration.pdb
+c:\users\daniel\documents\visual studio 2013\Projects\VbConcentration\VbConcentration\bin\Release\VbConcentration.xml
+c:\users\daniel\documents\visual studio 2013\Projects\VbConcentration\VbConcentration\obj\Release\VbConcentration.Concentration.resources
+c:\users\daniel\documents\visual studio 2013\Projects\VbConcentration\VbConcentration\obj\Release\VbConcentration.Resources.resources
+c:\users\daniel\documents\visual studio 2013\Projects\VbConcentration\VbConcentration\obj\Release\VbConcentration.vbproj.GenerateResource.Cache
+c:\users\daniel\documents\visual studio 2013\Projects\VbConcentration\VbConcentration\obj\Release\VbConcentration.exe
+c:\users\daniel\documents\visual studio 2013\Projects\VbConcentration\VbConcentration\obj\Release\VbConcentration.xml
+c:\users\daniel\documents\visual studio 2013\Projects\VbConcentration\VbConcentration\obj\Release\VbConcentration.pdb
+C:\Users\Daniel\documents\visual studio 2013\Projects\VbConcentration\VbConcentration\obj\Release\VbConcentration.vbprojResolveAssemblyReference.cache

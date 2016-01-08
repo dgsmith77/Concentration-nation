@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3B3AE496-E695-458D-929F-C9EB9B42BE96}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>CPPConcentration</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Concentration.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Concentration.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Concentration.resx">
+      <DependentUpon>Concentration.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource.resx">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\Bat-icon.png" />
+    <Image Include="images\Bear-icon.png" />
+    <Image Include="images\Beaver-icon.png" />
+    <Image Include="images\Bee-icon.png" />
+    <Image Include="images\Bull-icon.png" />
+    <Image Include="images\Cat-icon.png" />
+    <Image Include="images\Chicken-icon.png" />
+    <Image Include="images\Cow-icon.png" />
+    <Image Include="images\Crab-icon.png" />
+    <Image Include="images\Crocodile-icon.png" />
+    <Image Include="images\Deer-icon.png" />
+    <Image Include="images\Dog-icon.png" />
+    <Image Include="images\Dolphin-icon.png" />
+    <Image Include="images\Duck-icon.png" />
+    <Image Include="images\Eagle-icon.png" />
+    <Image Include="images\Elephant-icon.png" />
+    <Image Include="images\face3.png" />
+    <Image Include="images\Fish-icon.png" />
+    <Image Include="images\Frog-icon.png" />
+    <Image Include="images\Giraffe-icon.png" />
+    <Image Include="images\Goat-icon.png" />
+    <Image Include="images\Gorilla-icon.png" />
+    <Image Include="images\Hippo-icon.png" />
+    <Image Include="images\Horse-icon.png" />
+    <Image Include="images\Kangaroo-icon.png" />
+    <Image Include="images\Koala-icon.png" />
+    <Image Include="images\Lion-icon.png" />
+    <Image Include="images\Lizard-icon.png" />
+    <Image Include="images\Lobster-icon.png" />
+    <Image Include="images\Monkey-icon.png" />
+    <Image Include="images\Mouse-icon.png" />
+    <Image Include="images\Octopus-icon.png" />
+    <Image Include="images\Owl-icon.png" />
+    <Image Include="images\Penguin-icon.png" />
+    <Image Include="images\Pig-icon.png" />
+    <Image Include="images\Rabbit-icon.png" />
+    <Image Include="images\Raccoon-icon.png" />
+    <Image Include="images\Rat-icon.png" />
+    <Image Include="images\Rhino-icon.png" />
+    <Image Include="images\Seal-icon.png" />
+    <Image Include="images\Shark-icon.png" />
+    <Image Include="images\Sheep-icon.png" />
+    <Image Include="images\Snail-icon.png" />
+    <Image Include="images\Snake-icon.png" />
+    <Image Include="images\Squirrel-icon.png" />
+    <Image Include="images\Swan-icon.png" />
+    <Image Include="images\Tiger-icon.png" />
+    <Image Include="images\Tuna-icon.png" />
+    <Image Include="images\Turtle-icon.png" />
+    <Image Include="images\Whale-icon.png" />
+    <Image Include="images\Wolf-icon.png" />
+    <Image Include="images\zoo-light.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

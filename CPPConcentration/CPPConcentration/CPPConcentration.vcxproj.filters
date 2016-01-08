@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Concentration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Concentration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\Bat-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Rabbit-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Raccoon-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Rat-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Rhino-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Seal-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Shark-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Sheep-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Snail-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Snake-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Squirrel-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Swan-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Tiger-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Tuna-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Turtle-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Whale-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Wolf-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\zoo-light.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Bear-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Beaver-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Bee-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Bull-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Cat-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Chicken-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Cow-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Crab-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Crocodile-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Deer-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Dog-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Dolphin-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Duck-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Eagle-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Elephant-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\face3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Fish-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Frog-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Giraffe-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Goat-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Gorilla-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Hippo-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Horse-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Kangaroo-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Koala-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Lion-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Lizard-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Lobster-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Monkey-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Mouse-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Octopus-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Owl-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Penguin-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Pig-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

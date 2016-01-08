@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1D8549CC-B619-44EA-AC87-5A408BEABCBC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>VbConcentration.My.MyApplication</StartupObject>
+    <RootNamespace>VbConcentration</RootNamespace>
+    <AssemblyName>VbConcentration</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>VbConcentration.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>VbConcentration.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Concentration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Concentration.Designer.vb">
+      <DependentUpon>Concentration.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Concentration.resx">
+      <DependentUpon>Concentration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Bat-icon.png" />
+    <EmbeddedResource Include="images\Bear-icon.png" />
+    <EmbeddedResource Include="images\Beaver-icon.png" />
+    <EmbeddedResource Include="images\Bee-icon.png" />
+    <EmbeddedResource Include="images\Bull-icon.png" />
+    <EmbeddedResource Include="images\Cat-icon.png" />
+    <EmbeddedResource Include="images\Chicken-icon.png" />
+    <EmbeddedResource Include="images\Cow-icon.png" />
+    <EmbeddedResource Include="images\Crab-icon.png" />
+    <EmbeddedResource Include="images\Crocodile-icon.png" />
+    <EmbeddedResource Include="images\Deer-icon.png" />
+    <EmbeddedResource Include="images\Dog-icon.png" />
+    <EmbeddedResource Include="images\Dolphin-icon.png" />
+    <EmbeddedResource Include="images\Duck-icon.png" />
+    <EmbeddedResource Include="images\Eagle-icon.png" />
+    <EmbeddedResource Include="images\Elephant-icon.png" />
+    <EmbeddedResource Include="images\face3.png" />
+    <EmbeddedResource Include="images\Fish-icon.png" />
+    <EmbeddedResource Include="images\Frog-icon.png" />
+    <EmbeddedResource Include="images\Giraffe-icon.png" />
+    <EmbeddedResource Include="images\Goat-icon.png" />
+    <EmbeddedResource Include="images\Gorilla-icon.png" />
+    <EmbeddedResource Include="images\Hippo-icon.png" />
+    <EmbeddedResource Include="images\Horse-icon.png" />
+    <EmbeddedResource Include="images\Kangaroo-icon.png" />
+    <EmbeddedResource Include="images\Koala-icon.png" />
+    <EmbeddedResource Include="images\Lion-icon.png" />
+    <EmbeddedResource Include="images\Lizard-icon.png" />
+    <EmbeddedResource Include="images\Lobster-icon.png" />
+    <EmbeddedResource Include="images\Monkey-icon.png" />
+    <EmbeddedResource Include="images\Mouse-icon.png" />
+    <EmbeddedResource Include="images\Octopus-icon.png" />
+    <EmbeddedResource Include="images\Owl-icon.png" />
+    <EmbeddedResource Include="images\Penguin-icon.png" />
+    <EmbeddedResource Include="images\Pig-icon.png" />
+    <EmbeddedResource Include="images\Rabbit-icon.png" />
+    <EmbeddedResource Include="images\Raccoon-icon.png" />
+    <EmbeddedResource Include="images\Rat-icon.png" />
+    <EmbeddedResource Include="images\Rhino-icon.png" />
+    <EmbeddedResource Include="images\Seal-icon.png" />
+    <EmbeddedResource Include="images\Shark-icon.png" />
+    <EmbeddedResource Include="images\Sheep-icon.png" />
+    <EmbeddedResource Include="images\Snail-icon.png" />
+    <EmbeddedResource Include="images\Snake-icon.png" />
+    <EmbeddedResource Include="images\Squirrel-icon.png" />
+    <EmbeddedResource Include="images\Swan-icon.png" />
+    <EmbeddedResource Include="images\Tiger-icon.png" />
+    <EmbeddedResource Include="images\Tuna-icon.png" />
+    <EmbeddedResource Include="images\Turtle-icon.png" />
+    <EmbeddedResource Include="images\Whale-icon.png" />
+    <EmbeddedResource Include="images\Wolf-icon.png" />
+    <EmbeddedResource Include="images\zoo-light.png" />
+    <EmbeddedResource Include="images\zoo-lighter.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

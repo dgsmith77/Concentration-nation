@@ -1,0 +1,10 @@
+c:\users\daniel\documents\visual studio 2013\Projects\FSharpConcentration\FSharpConcentration\bin\Release\FSharpConcentration.exe.config
+c:\users\daniel\documents\visual studio 2013\Projects\FSharpConcentration\FSharpConcentration\bin\Release\FSharpConcentration.XML
+c:\users\daniel\documents\visual studio 2013\Projects\FSharpConcentration\FSharpConcentration\bin\Release\FSharpConcentration.exe
+c:\users\daniel\documents\visual studio 2013\Projects\FSharpConcentration\FSharpConcentration\bin\Release\FSharpConcentration.pdb
+c:\users\daniel\documents\visual studio 2013\Projects\FSharpConcentration\FSharpConcentration\bin\Release\FSharp.Core.dll
+c:\users\daniel\documents\visual studio 2013\Projects\FSharpConcentration\FSharpConcentration\bin\Release\FSharp.Core.xml
+c:\users\daniel\documents\visual studio 2013\Projects\FSharpConcentration\FSharpConcentration\obj\Release\FSharpConcentration.exe
+c:\users\daniel\documents\visual studio 2013\Projects\FSharpConcentration\FSharpConcentration\obj\Release\FSharpConcentration.pdb
+c:\users\daniel\documents\visual studio 2013\Projects\FSharpConcentration\FSharpConcentration\obj\Release\Resources.resources
+c:\users\daniel\documents\visual studio 2013\Projects\FSharpConcentration\FSharpConcentration\obj\Release\FSharpConcentration.fsproj.GenerateResource.Cache

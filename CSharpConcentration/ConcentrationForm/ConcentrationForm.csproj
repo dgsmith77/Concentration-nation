@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{085B6955-93EC-4025-A218-37ED52127C24}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ConcentrationForm</RootNamespace>
+    <AssemblyName>ConcentrationForm</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Form1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Form11.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="images\alligator.png" />
+    <Content Include="images\ant.png" />
+    <Content Include="images\bat.png" />
+    <Content Include="images\bear.png" />
+    <Content Include="images\bee.png" />
+    <Content Include="images\bird.png" />
+    <Content Include="images\bull.png" />
+    <Content Include="images\bulldog.png" />
+    <Content Include="images\butterfly.png" />
+    <Content Include="images\cat.png" />
+    <Content Include="images\chicken.png" />
+    <Content Include="images\cow.png" />
+    <Content Include="images\crab.png" />
+    <Content Include="images\crocodile.png" />
+    <Content Include="images\deer.png" />
+    <Content Include="images\dog.png" />
+    <Content Include="images\donkey.png" />
+    <Content Include="images\duck.png" />
+    <Content Include="images\eagle.png" />
+    <Content Include="images\elephant.png" />
+    <Content Include="images\face3.png" />
+    <Content Include="images\fish.png" />
+    <Content Include="images\fox.png" />
+    <Content Include="images\frog.png" />
+    <Content Include="images\giraffe.png" />
+    <Content Include="images\gorilla.png" />
+    <Content Include="images\hippo.png" />
+    <Content Include="images\horse.png" />
+    <Content Include="images\insect.png" />
+    <Content Include="images\lion.png" />
+    <Content Include="images\monkey.png" />
+    <Content Include="images\moose.png" />
+    <Content Include="images\mouse.png" />
+    <Content Include="images\owl.png" />
+    <Content Include="images\panda.png" />
+    <Content Include="images\penguin.png" />
+    <Content Include="images\pig.png" />
+    <Content Include="images\rabbit.png" />
+    <Content Include="images\rhino.png" />
+    <Content Include="images\rooster.png" />
+    <Content Include="images\shark.png" />
+    <Content Include="images\sheep.png" />
+    <Content Include="images\snake.png" />
+    <Content Include="images\tiger.png" />
+    <Content Include="images\turkey.png" />
+    <Content Include="images\turtle.png" />
+    <Content Include="images\wolf.png" />
+    <Content Include="images\zoo-light.png" />
+    <Content Include="images\zoo-lighter.png" />
+    <Content Include="images\zoo_light.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
