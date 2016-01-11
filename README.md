@@ -13,7 +13,7 @@ I decided it was time to re-do the **VB6** version since, by now, the 3 1/2 inch
 
 Next I did a **Python** version because it seems to be a popular programming language at the moment ([#4 in popularity this past year](http://spectrum.ieee.org/static/interactive-the-top-programming-languages-2015#index/2015/1/1/1/1/1/50/1/50/1/50/1/30/1/30/1/30/1/20/1/20/1/5/1/5/1/20/1/100/)).
 
-Lastly, I created a **Javascript/jQuery** version so I could have something to put on a web page. It's a stripped down version
+Lastly, I created a [**Javascript/jQuery**](http://dantheman.net23.net/Concentration.html) version so I could have something to put on a web page. It's a stripped down version
 compared to most of the rest.
 
 ###IMAGE USE
@@ -26,5 +26,3 @@ I created a Resources.resx for the images in all of the .NET code (C#, VB.NET, C
 The TCL and Python versions aren't using images at all. I ran the convertImages.tcl and createBgAndDefault.tcl against the TCL images to create base64 encoded strings and then stored them in files. For Python I ran the img-conversion.py file I wrote to create byte code equivalents of the images that I then stored in files (I couldn't figure out a Resources.resx alternative for either of them and I guess a couple of files that represent the images is better than an entire directory of 46 to 49 images).
 
 For the VB6 version I expanded the form a little and dropped all of the images in an area of the form that I later covered up by making the form smaller.
-
-[JS Concentration](http://dantheman.net23.net/Concentration.html)
