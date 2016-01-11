@@ -18,9 +18,9 @@ compared to most of the rest.
 ##IMAGE USE
 
 **_NOTE:_** None of the image files used for any of the games have been uploaded with the exception of the Javascript example.
-I did leave the **_images_** folders as a place holder. Each game requires at least 8 images. For most of the games I used 48 or 49 images. The Javascript example only uses 8 images (a subset of the what I used for a couple of the other games). 
+I did leave the **_images_** folders as a place holder. Each game requires at least 8 images. For most of the games I used between 46 and 49 images. I found the images [here](http://www.iconarchive.com/artist/martin-berube.html) and they are free to use. The Javascript example only uses 8 images (a subset of the what I used for a couple of the other games). 
 
-I used a Resources.resx for the images in all of the .NET code (C#, VB.NET, C++ and F#) so that, when I compiled the executables, the images were included in the exe and I did not have to include a /images directory with it.
+I created a Resources.resx for the images in all of the .NET code (C#, VB.NET, C++ and F#) so that, when I compiled the executables, the images were included in the exe and I did not have to include a /images directory with it.
 
 The TCL and Python versions aren't using images at all. I ran the convertImages.tcl and createBgAndDefault.tcl against the TCL images to create base64 encoded strings and then stored them in files. For Python I ran the img-conversion.py file I wrote to create byte code equivalents of the images that I then stored in files (I couldn't figure out a Resources.resx alternative for either of them and I guess a couple of files that represent the images is better than an entire directory of 48 or 49 images).
 
