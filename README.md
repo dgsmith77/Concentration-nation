@@ -24,6 +24,6 @@ I created a Resources.resx for the images in all of the .NET code (C#, VB.NET, C
 
 The TCL and Python versions aren't using images at all. I ran the convertImages.tcl and createBgAndDefault.tcl against the TCL images to create base64 encoded strings and then stored them in files. For Python I ran the img-conversion.py file I wrote to create byte code equivalents of the images that I then stored in files (I couldn't figure out a Resources.resx alternative for either of them and I guess a couple of files that represent the images is better than an entire directory of 46 to 49 images).
 
-For the VB6 version, I included all of the images on the form where they aren't seen.
+For the VB6 version I expanded the form a little and dropped all of the images in an area of the form that I later covered up by making the form smaller.
 
 [JS Concentration](http://dantheman.net23.net/Concentration.html)
