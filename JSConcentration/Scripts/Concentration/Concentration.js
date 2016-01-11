@@ -15,7 +15,7 @@ var moves = 0;
 var prevIndex = -1;
 var pause = 800;
 
-$(document).one('ready', function () {
+$(document).ready(function () {
     Concentration.gameFunctions.setUpForm();
     Concentration.gameFunctions.scrambleImages();
 
