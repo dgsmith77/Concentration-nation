@@ -18,7 +18,7 @@ compared to most of the rest.
 ##IMAGE USE
 
 **_NOTE:_** None of the image files used for any of the games have been uploaded with the exception of the Javascript example.
-I did leave the **_images_** folders as a place holder. Each game requires at least 8 images. For most of the games I used between 46 and 49 images. I found the images [here](http://www.iconarchive.com/artist/martin-berube.html) and they are free to use. The Javascript example only uses 8 images (a subset of the what I used for a couple of the other games). 
+I did leave the **_images_** folders as a place holder. Each game requires at least 8 images. For most of the games I used between 46 and 49 images. I found the images [here](http://www.iconarchive.com/artist/martin-berube.html) and they are free to use. The Javascript example only uses 8 images (a subset of what I used for a couple of the other games). 
 
 I created a Resources.resx for the images in all of the .NET code (C#, VB.NET, C++ and F#) so that, when I compiled the executables, the images were included in the exe and I did not have to include a /images directory with it.
 
