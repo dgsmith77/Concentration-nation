@@ -69,7 +69,16 @@ Concentration.gameFunctions = (function ($) {
         prevIndex = index;
     },
     newGame = function () {
-        location.reload(); // got lazy
+        scrambled = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+		clicks = 0;
+		uncovered = 0;
+		moves = 0;
+		prevIndex = -1;
+		scrambleImages();
+		$('.gameButton').each(function() {
+			$(this).attr('src', imgDir + defaultImg);
+		});
+		$('#moves').text("0 Moves");
     },
     doPause = function (miliseconds, curr, prev) {
         setTimeout(function () {
