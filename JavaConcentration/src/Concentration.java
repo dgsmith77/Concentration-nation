@@ -144,8 +144,8 @@ public class Concentration extends JFrame
 	    	j = generator.nextInt(TOTAL_NAMES);
 	    	if(scrambled[j] == EMPTY_STRING)
 	    	{
-	    		scrambled[j] = names[i];
-	    		i++;
+	    	    scrambled[j] = names[i];
+	    	    i++;
 	    	}
 	    } while (i <= 15);
 	}
@@ -153,19 +153,19 @@ public class Concentration extends JFrame
 	// function to select 8 pictures from the picset array
 	private void SelectPics()
 	{
-		Random generator = new Random();
-		List<Integer> usedIndices = new ArrayList<Integer>();
-		int i = 0;
-		int j;
-		do
+	    Random generator = new Random();
+    	    List<Integer> usedIndices = new ArrayList<Integer>();
+	    int i = 0;
+	    int j;
+	    do
 	    {
 	    	j = generator.nextInt(TOTAL_PICS);
 	    	if(names[i] == EMPTY_STRING && !usedIndices.contains(j))
 	    	{
-	    		usedIndices.add(j);
-	    		names[i] = picset[j];
-	    		names[i + 8] = picset[j];
-	    		i++;
+	    	    usedIndices.add(j);
+	    	    names[i] = picset[j];
+	    	    names[i + 8] = picset[j];
+	    	    i++;
 	    	}
 	    } while (i <= 7);
 	}
@@ -173,56 +173,56 @@ public class Concentration extends JFrame
 	// inner class for button clicking event handling
 	private class ButtonHandler implements ActionListener 
 	{
-		public void actionPerformed( ActionEvent e )
+	    public void actionPerformed( ActionEvent e )
 	    {
-			index = Integer.parseInt(e.getActionCommand());
-			showImage(index);
+		index = Integer.parseInt(e.getActionCommand());
+		showImage(index);
 
-			// check for matches
-			if(showing % 2 == 0 && showing != uncovered)
-			{
-				// update moves
-				String strmoves = moves == 0 ? ++moves + MOVE : ++moves + MOVES;
-				lblmoves.setText(strmoves);
+		// check for matches
+		if(showing % 2 == 0 && showing != uncovered)
+		{
+		    // update moves
+		    String strmoves = moves == 0 ? ++moves + MOVE : ++moves + MOVES;
+		    lblmoves.setText(strmoves);
 				
-				// check for a match
-				if(scrambled[prevIndex] == scrambled[index])
-				{
-					uncovered += 2;
-				}
-				else
-				{
-					doPause();
-					buttons[prevIndex].setIcon(defIcon);
-					buttons[index].setIcon(defIcon);
-				}
-			}
-			// update indices
-			prevIndex = index;
+		    // check for a match
+		    if(scrambled[prevIndex] == scrambled[index])
+		    {
+			uncovered += 2;
+		    }
+		    else
+		    {
+		    	doPause();
+		    	buttons[prevIndex].setIcon(defIcon);
+			buttons[index].setIcon(defIcon);
+		    }
+		}
+		// update indices
+		prevIndex = index;
 	    }
 	}
 	
 	private void showImage(int index)
 	{
-		// show hidden image
-		java.net.URL imageURL = cl.getResource(scrambled[index] + IMG_EXT);
-		ImageIcon temp = new ImageIcon(imageURL);
+	    // show hidden image
+	    java.net.URL imageURL = cl.getResource(scrambled[index] + IMG_EXT);
+	    ImageIcon temp = new ImageIcon(imageURL);
 
-		buttons[index].setIcon(temp);
+	    buttons[index].setIcon(temp);
 		
-		// check for images that aren't the default
-		// to prevent double clicking
-		showing = 0;
-		for(int i=0; i<buttons.length; i++)
-		{
-			showing += buttons[i].getIcon() == defIcon ? 0 : 1;
-		}
+	    // check for images that aren't the default
+	    // to prevent double clicking
+	    showing = 0;
+	    for(int i=0; i<buttons.length; i++)
+	    {
+		showing += buttons[i].getIcon() == defIcon ? 0 : 1;
+	    }
 	}
 	
 	@SuppressWarnings("serial")
 	private void doPause()
 	{
-		final JLabel label = new JLabel();
+	    final JLabel label = new JLabel();
 	    new Timer(TIMER_DELAY, new ActionListener() 
 	    {
 	    	int timeLeft = 1;
@@ -231,14 +231,14 @@ public class Concentration extends JFrame
 	        {
 	           if (timeLeft > 0) 
 	           {
-	        	   label.setText(NOT_A_MATCH_TEXT);
-	        	   timeLeft--;
+	       		label.setText(NOT_A_MATCH_TEXT);
+	        	timeLeft--;
 	           } 
 	           else 
 	           {
-	        	   ((Timer)e.getSource()).stop();
-	               Window win = SwingUtilities.getWindowAncestor(label);
-	               win.setVisible(false);
+	        	((Timer)e.getSource()).stop();
+	               	Window win = SwingUtilities.getWindowAncestor(label);
+	               	win.setVisible(false);
 	           }
 	         }
 	      }){{setInitialDelay(0);}}.start();
@@ -249,28 +249,28 @@ public class Concentration extends JFrame
 	// start a new game
 	private class Restart implements ActionListener
 	{
-		public void actionPerformed( ActionEvent e )
-		{
-			for(int j=0; j<names.length; j++)
-				names[j] = EMPTY_STRING;
-			SelectPics();
-			for(int i=0; i<scrambled.length; i++)
-		    	scrambled[i] = EMPTY_STRING;
-			ScramblePics();
-			index = 0;
-			prevIndex = -1;
-			uncovered = 0;
-			SetDefaultImage();
-			showing = 0;
-			moves = 0;
-			lblmoves.setText(INIT_MOVES_TEXT);
-		}
+	    public void actionPerformed( ActionEvent e )
+	    {
+		for(int j=0; j<names.length; j++)
+		    names[j] = EMPTY_STRING;
+		SelectPics();
+		for(int i=0; i<scrambled.length; i++)
+		    scrambled[i] = EMPTY_STRING;
+		ScramblePics();
+		index = 0;
+		prevIndex = -1;
+		uncovered = 0;
+		SetDefaultImage();
+		showing = 0;
+		moves = 0;
+		lblmoves.setText(INIT_MOVES_TEXT);
+	    }
 		
-		// set default image for all buttons
-		private void SetDefaultImage()
-		{
-			for(int i=0;i<buttons.length;i++)
-				buttons[i].setIcon(defIcon);
-		}
+	    // set default image for all buttons
+	    private void SetDefaultImage()
+	    {
+	     	for(int i=0;i<buttons.length;i++)
+		    buttons[i].setIcon(defIcon);
+	    }
 	}
 }
