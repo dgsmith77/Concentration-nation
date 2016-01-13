@@ -240,10 +240,10 @@ public class Concentration extends JFrame
 	               	Window win = SwingUtilities.getWindowAncestor(label);
 	               	win.setVisible(false);
 	           }
-	         }
-	      }){{setInitialDelay(0);}}.start();
+	        }
+	    }){{setInitialDelay(0);}}.start();
 
-	      JOptionPane.showOptionDialog(null, label, EMPTY_STRING, JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, new Object[]{}, null);
+	    JOptionPane.showOptionDialog(null, label, EMPTY_STRING, JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, new Object[]{}, null);
 	}
 
 	// start a new game
