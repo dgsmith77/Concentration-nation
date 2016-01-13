@@ -53,20 +53,22 @@ Concentration.gameFunctions = (function ($) {
         } while (i <= 15);
     },
     gameButtonClick = function (index) {
-        $('#' + index).attr('src', imgDir + scrambled[index]);
-        clicks += 1;
-        if (clicks % 2 == 0 && uncovered % 2 == 0) {
-            moves++;
-            var moveTxt = moves == 1 ? "1 Move" : moves + " Moves";
-            $('#moves').text(moveTxt);
-            if (scrambled[prevIndex] == scrambled[index]) {
-                uncovered += 2;
-            }
-            else {
-                doPause(pause, index, prevIndex);
-            }
-        }
-        prevIndex = index;
+        if($('#' + index).attr('src') == imgDir + defaultImg) {
+			$('#' + index).attr('src', imgDir + scrambled[index]);
+			clicks += 1;
+			if (clicks % 2 == 0 && uncovered % 2 == 0) {
+				moves++;
+				var moveTxt = moves == 1 ? "1 Move" : moves + " Moves";
+				$('#moves').text(moveTxt);
+				if (scrambled[prevIndex] == scrambled[index]) {
+					uncovered += 2;
+				}
+				else {
+					doPause(pause, index, prevIndex);
+				}
+			}
+			prevIndex = index;
+		}
     },
     newGame = function () {
         scrambled = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
