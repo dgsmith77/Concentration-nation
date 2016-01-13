@@ -11,7 +11,7 @@ I hadn't done any **C++** since college so I tackled that version next. Then I w
 
 I decided it was time to re-do the **VB6** version since, by now, the 3 1/2 inch floppy was no good to me. 
 
-Next I did a **Python** version because it seems to be a popular programming language at the moment ([#4 in popularity this past year](http://spectrum.ieee.org/static/interactive-the-top-programming-languages-2015#index/2015/1/1/1/1/1/50/1/50/1/50/1/30/1/30/1/30/1/20/1/20/1/5/1/5/1/20/1/100/)).
+Next I did a **Python** version because it seems to be a popular programming language at the moment ([#4 in popularity the last 2 years](http://spectrum.ieee.org/static/interactive-the-top-programming-languages-2015#index/2015/1/1/1/1/1/50/1/50/1/50/1/30/1/30/1/30/1/20/1/20/1/5/1/5/1/20/1/100/)).
 
 Lastly, I created a [**Javascript/jQuery**](http://dantheman.net23.net/Concentration.html) version so I could have something to put on a web page. It's a stripped down version
 compared to most of the rest.
