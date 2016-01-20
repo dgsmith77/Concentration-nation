@@ -23,6 +23,8 @@ I did leave the **_images_** folders as a place holder. Each game requires at le
 
 I created a Resources.resx for the images in all of the .NET code (C#, VB.NET, C++ and F#) so that, when I compiled the executables, the images were included in the exe and I did not have to include a /images directory with it.
 
+For the Java version I used the ClassLoader to get the image resources.
+
 The TCL and Python versions aren't using images at all. I ran the convertImages.tcl and createBgAndDefault.tcl against the TCL images to create base64 encoded strings and then stored them in files. For Python I ran the img-conversion.py file I wrote to create byte code equivalents of the images that I then stored in files (I couldn't figure out a Resources.resx alternative for either of them and I guess a couple of files that represent the images is better than an entire directory of 46 to 49 images).
 
 For the VB6 version I expanded the form a little and dropped all of the images in an area of the form that I later covered up by making the form smaller.
