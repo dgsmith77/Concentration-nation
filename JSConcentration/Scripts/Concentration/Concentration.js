@@ -26,6 +26,10 @@ $(document).ready(function () {
     $('#newGame').on('click', function () {
         Concentration.gameFunctions.newGame();
     });
+	
+	$('#header').on('click', function() {
+		window.location.href = 'index.html';
+	});
 });
 
 Concentration.gameFunctions = (function ($) {
@@ -58,7 +62,7 @@ Concentration.gameFunctions = (function ($) {
             clicks += 1;
             if (clicks % 2 == 0 && uncovered % 2 == 0) {
                 moves++;
-                var moveTxt = moves == 1 ? "1 Move" : moves + " Moves";
+                var moveTxt = moves == 1 ? '1 Move' : moves + ' Moves';
                 $('#moves').text(moveTxt);
                 if (scrambled[prevIndex] == scrambled[index]) {
                     uncovered += 2;
@@ -69,6 +73,31 @@ Concentration.gameFunctions = (function ($) {
             }
             prevIndex = index;
         }
+		// check for complete gameButton
+		if(uncovered == picSet.length) {
+		    var msg = 'You took ' + moves + ' moves to complete the puzzle.\n\n';
+			switch(true) {
+				case(moves <= 13):
+				    msg += 'Brilliant!!';
+					break;
+				case(moves > 13 && moves <= 15):
+					msg += 'Well done!';
+					break;
+				case(moves > 15 && moves <= 18):
+					msg += 'Nice job.';
+					break;
+				case(moves > 18 && moves <= 21):
+					msg += 'Not bad.';
+					break;
+				case(moves > 21 && moves <= 24):
+					msg += 'Well...we can\'t all be geniuses.';
+					break;
+				case(moves > 24):
+					msg += 'You might want to get checked for Alzheimers.';
+					break;
+			}
+			alert(msg);
+		}
     },
     newGame = function () {
         scrambled = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
