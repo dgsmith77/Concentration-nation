@@ -92,7 +92,10 @@ Concentration.gameFunctions = (function ($) {
 			    case(moves > 19 && moves <= 21):
 				    msg += 'Well...we can\'t all be geniuses.';
 				    break;
-			    case(moves > 21):
+		        case (moves > 21 && moves <= 24):
+		            msg += 'OUCH!';
+		            break;
+			    case(moves > 24):
 				    msg += 'You might want to get checked for Alzheimers.';
 				    break;
 		    }
