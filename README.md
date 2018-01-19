@@ -13,7 +13,7 @@ I decided it was time to re-do the **VB6** version since, by now, the 3 1/2 inch
 
 Next I did a **Python** version because it seems to be a popular programming language at the moment ([#4 in popularity for the last 2 years](http://spectrum.ieee.org/static/interactive-the-top-programming-languages-2015#index/2015/1/1/1/1/1/50/1/50/1/50/1/30/1/30/1/30/1/20/1/20/1/5/1/5/1/20/1/100/)).
 
-Lastly, I created a [**Javascript/jQuery**](http://dantheman.net23.net/Concentration.html) version so I could have something to put on a web page. It's a stripped down version
+Lastly, I created a [**Javascript/jQuery**](https://dantheman3721.000webhostapp.com/Concentration.html) version so I could have something to put on a web page. It's a stripped down version
 compared to most of the rest.
 
 ### IMAGE USE
